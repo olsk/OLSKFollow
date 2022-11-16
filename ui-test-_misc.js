@@ -29,7 +29,7 @@ describe('OLSKFollow_Misc', function () {
 		});
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKFollowMastodon, 'href', 'https://merveilles.town/@rosano');
+			browser.assert.attribute(OLSKFollowMastodon, 'href', 'https://mastodon.online/@rosano');
 		});
 
 		it('sets text', function () {
