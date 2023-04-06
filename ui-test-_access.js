@@ -17,15 +17,15 @@ describe('OLSKFollow_Access', function () {
 	});
 
 	it('shows OLSKFollow', function () {
-		browser.assert.elements(OLSKFollow, 1);
+		return browser.assert.elements(OLSKFollow, 1);
 	});
 
 	it('shows OLSKFollowTwitter', function () {
-		browser.assert.elements(OLSKFollowTwitter, 1);
+		return browser.assert.elements(OLSKFollowTwitter, 1);
 	});
 
 	it('shows OLSKFollowMastodon', function () {
-		browser.assert.elements(OLSKFollowMastodon, 1);
+		return browser.assert.elements(OLSKFollowMastodon, 1);
 	});
 
 });

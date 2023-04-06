@@ -15,7 +15,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 
 		it('localizes OLSKFollow', function() {
-			browser.assert.text(OLSKFollow, OLSKTestingFormatted(uLocalized('OLSKFollowTextFormat'), 'Twitter', 'Mastodon'));
+			return browser.assert.text(OLSKFollow, OLSKTestingFormatted(uLocalized('OLSKFollowTextFormat'), 'Twitter', 'Mastodon'));
 		});
 
 	});
