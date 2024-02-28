@@ -13,7 +13,7 @@ describe('OLSKFollow_Misc', function () {
 		});
 
 		it('sets href', function () {
-			return browser.assert.attribute(OLSKFollowTwitter, 'href', 'https://twitter.com/rosano');
+			return browser.assert.attribute(OLSKFollowTwitter, 'href', 'https://rosano.ca/twitter');
 		});
 
 		it('sets text', function () {
@@ -29,7 +29,7 @@ describe('OLSKFollow_Misc', function () {
 		});
 
 		it('sets href', function () {
-			return browser.assert.attribute(OLSKFollowMastodon, 'href', 'https://mastodon.online/@rosano');
+			return browser.assert.attribute(OLSKFollowMastodon, 'href', 'https://rosano.ca/mastodon');
 		});
 
 		it('sets text', function () {
